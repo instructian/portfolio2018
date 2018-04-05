@@ -1,5 +1,21 @@
-.grid-container{border:1px solid red;}
+/* .grid-container{border:1px solid red;}
 
 .grid-x {border:1px solid blue;}
 
-.cell {border:1px solid green;}
+.cell {border:1px solid green;} */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display', serif;}
+p, li {font-family: 'Roboto', sans-serif;}
+
+/* NAVIGATION */
+
+#logo{width: 50px; height:50px; background-color: red; background-image: url("http://www.ovalion.com/img/logo-design-kerala.png");background-size: contain; text-indent: -50em; background-repeat: no-repeat;}
+
+li {color:blue;}
+nav { background-color: hsla(240, 50%, 90%, 1);}
+nav >ul >li>a:link {color:red; background-color: hsla(240, 50%, 90%, 1);}
+nav >ul >li>a:hover {color:white; background-color: hsla(240, 100%, 50%, 1);}
+nav >ul >li>a:active {color:red; background-color: hsla(240, 100%, 10%, 1);}
+nav >ul >li>a:link {color:red; background-color: hsla(240, 50%, 90%, 1);}
