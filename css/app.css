@@ -5,6 +5,8 @@
 .cell {border:1px solid green;} */
 
 /* FONTS */
+
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
 h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display', serif;}
 p, li {font-family: 'Roboto', sans-serif;}
@@ -19,3 +21,10 @@ nav >ul >li>a:link {color:red; background-color: hsla(240, 50%, 90%, 1);}
 nav >ul >li>a:hover {color:white; background-color: hsla(240, 100%, 50%, 1);}
 nav >ul >li>a:active {color:red; background-color: hsla(240, 100%, 10%, 1);}
 nav >ul >li>a:link {color:red; background-color: hsla(240, 50%, 90%, 1);}
+
+/* HERO IMAGE TEXT */
+
+@media screen and (min-width: 40em) {
+#hero {position: relative;}
+#hero  h2 {color:red; position: absolute; top:50%;left: 50%; width: 400px; margin-left: -200px; background-color: hsla(250, 100%, 100%, 50%); }
+  }
